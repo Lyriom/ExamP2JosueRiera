@@ -1,3 +1,4 @@
+using ExamP2JosueRiera;
 using System;
 using System.IO;
 
@@ -37,6 +38,10 @@ namespace EXAMP2
             jr_nombreEntry.Text = string.Empty;
             jr_telefonoEntry.Text = string.Empty;
             CargarUltimaRecarga();
+        }
+        private void IrAGrid(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PageGrid());
         }
     }
 }

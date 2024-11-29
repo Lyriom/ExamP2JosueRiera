@@ -39,5 +39,9 @@
                Text="No se ha realizado ninguna recarga aún."
                FontSize="16"
                TextColor="Black" />
+        <Button
+    x:Name="IrGrid"
+    Text="Botón para ir a Grid"
+    Clicked="IrAGrid" />
     </VerticalStackLayout>
 </ContentPage>
