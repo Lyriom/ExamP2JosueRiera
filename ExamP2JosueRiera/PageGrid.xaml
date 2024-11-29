@@ -15,17 +15,17 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Label Text="Column 0, Row 0"
+            <Label Text="Josue"
                Grid.Column="0"
                BackgroundColor="Yellow"
                VerticalTextAlignment="Center"
                HorizontalTextAlignment="Center"/>
-            <Label Text="Column 1, Row 0"
+            <Label Text="Daniel"
                Grid.Column="1"
                BackgroundColor="Blue"
                VerticalTextAlignment="Center"
                HorizontalTextAlignment="Center"/>
-            <Label Text="Column 0, Row 1"
+            <Label Text="Riera"
                Grid.Row="1"
                BackgroundColor="Red"
                VerticalTextAlignment="Center"
@@ -34,8 +34,10 @@
             <Label
                 Grid.Row="1"
                 Grid.Column="1"
-                Text="Pulgas"
+                Text="Pulgar"
                 BackgroundColor="Aqua"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
                 />
         </Grid>
     </VerticalStackLayout>
