@@ -1,12 +1,43 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ExamP2JosueRiera.StackLayoutPage"
-             Title="StackLayoutPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+             x:Class="EXAMP2.StackLayoutPage"
+             Title="Recarga de Saldo">
+    <VerticalStackLayout Margin="20,35,20,25" Spacing="15">
+        <Label Text="Recarga de Saldo"
+               BackgroundColor="LightGray"
+               TextColor="Black"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <Entry x:Name="jr_nombreEntry"
+               Placeholder="Ingrese su nombre"
+               BackgroundColor="White"
+               FontSize="18"
+               TextColor="Black" />
+
+        <Entry x:Name="jr_telefonoEntry"
+               Placeholder="Ingrese su número telefónico"
+               Keyboard="Telephone"
+               BackgroundColor="White"
+               FontSize="18"
+               TextColor="Black" />
+
+        <Button x:Name="jr_recargaButton"
+                Text="Realizar Recarga"
+                BackgroundColor="DodgerBlue"
+                TextColor="White"
+                FontSize="18"
+                Clicked="jr_recargaButton_Clicked" />
+
+        <Label Text="Última Recarga:"
+               FontSize="18"
+               FontAttributes="Bold"
+               TextColor="DarkBlue" />
+
+        <Label x:Name="jr_resultadoLabel"
+               Text="No se ha realizado ninguna recarga aún."
+               FontSize="16"
+               TextColor="Black" />
     </VerticalStackLayout>
 </ContentPage>

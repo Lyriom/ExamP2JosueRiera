@@ -20,8 +20,8 @@
 
             <Button
                 x:Name="IrGrid"
-                Text="Botón para ir a grid"
-                Clicked="IrGridPage" />
+                Text="Botón para ir a Stack"
+                Clicked="IrStack" />
 
         </VerticalStackLayout>
     </ScrollView>

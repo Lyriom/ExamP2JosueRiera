@@ -8,8 +8,12 @@
         {
             InitializeComponent();
         }
+        private void IrStack(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EXAMP2.StackLayoutPage());
+        }
 
- 
+
     }
 
 }
